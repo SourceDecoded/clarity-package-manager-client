@@ -1,0 +1,19 @@
+{
+  "name": "cpkg",
+  "version": "0.0.1",
+  "description": "Clarity Package Manager client and development utilities",
+  "keywords": ["clarity", "cpkg", "clarity package manager"],
+  "bugs": "http://github.com/SourceDecoded/clarity-package-manager-client/issues",
+  "license": "Apache-2.0",
+  "contributors": [
+    {"name":"Benjamin Howe", "email":"benjamin-howe@leavitt.com"},
+    {"name":"Jared Barnes", "email":"jared-barnes@leavitt.com"}
+  ],
+  "main": "main.js",
+  "files":["main.js", "cli.js", "lib", "test"],
+  "bin": {"cpkg": "./cli.js"},
+  "repository": { "type": "git", "url":"https://github.com/SourceDecoded/clarity-package-manager-client.git"},
+  "dependencies": {
+    "nopt": "~3.0.1"
+  }
+}

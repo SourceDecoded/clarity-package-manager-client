@@ -14,6 +14,7 @@
   "bin": {"cpkg": "./cli.js"},
   "repository": { "type": "git", "url":"https://github.com/SourceDecoded/clarity-package-manager-client.git"},
   "dependencies": {
-    "nopt": "~3.0.1"
+    "nopt": "~3.0.1",
+    "ncp": "~2.0.0"
   }
 }
